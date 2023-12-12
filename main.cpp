@@ -12,9 +12,8 @@ int ary[12][12];
 char gwiazdy[12][12];
 void plansza();
 //int **ary;
-int a, b, d, t, bomba=0;
+int a=12, b, d, t, bomba=0;
 int main() {
-    a=12;
     //cin >> a;
     cin >> b;
     srand(time(NULL));
@@ -136,6 +135,10 @@ int main() {
                     gwiazdy[y][x]=33;
                     plansza();
                 }
+                else if (c==32)
+                {
+                    return 0;
+                }
         }
     }
 
@@ -192,6 +195,7 @@ void plansza()
         }
         cout << endl;
     }
+    cout<<"Intrukcje:"<<endl<<"Wcisnij numer aby okryc kawalek planszy"<<endl<<"wcisnij f aby walnac flage"<<endl<<"wcisnij spacje aby zakonczyc";
 
     //jakby ktos chcial sciage
     /*for (int i = 0; i < a; i++)
