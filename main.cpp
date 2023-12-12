@@ -18,6 +18,7 @@ int main() {
     //cin >> a;
     cin >> b;
     srand(time(NULL));
+    //Jak mi sie bedzie chcialo to naprawie zeby byla to dynamiczna tablica
     /*int **ary = new int *[a];
     for (int i = 0; i < a; i++)
     {
@@ -192,7 +193,7 @@ void plansza()
         cout << endl;
     }
 
-
+    //jakby ktos chcial sciage
     /*for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < a; j++)
